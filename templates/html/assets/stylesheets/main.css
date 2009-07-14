@@ -40,6 +40,11 @@ code {
   font-size: 11px;
 }
 
+.section pre p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 
 /* @end */
 

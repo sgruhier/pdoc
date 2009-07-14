@@ -3,6 +3,8 @@ OUTPUT_DIR = File.expand_path(File.join(DIR, "..", "output"))
 TEMPLATES_DIR = File.expand_path(File.join(DIR, "..", "templates"))
 PARSER_DIR = File.expand_path(File.join(DIR, "pdoc", "parser"))
 VENDOR_DIR = File.expand_path(File.join(DIR, "..", "vendor"))
+# Uv.themes in console to get installed available themes. Don't forget to copy CSS file
+UV_THEME = "sunburst"
 
 [DIR, VENDOR_DIR, PARSER_DIR, OUTPUT_DIR, TEMPLATES_DIR].each do |c|
   $:.unshift File.expand_path(c)
